@@ -1,0 +1,24 @@
+Rampart PHP Profiler
+Copyright (c) 2018 The Chinese University of Hong Kong
+  Creator: Wei Meng
+
+
+This product includes work from the following third-party libraries:
+
+    - Tideways PHP Profiler (https://github.com/tideways/php-xhprof-extension)
+      Copyright (c) 2014-2016 Tideways GmbH
+
+    - xhprof (https://github.com/phacility/xhprof)
+
+      Copyright (c) 2009 Facebook
+
+        Creators:
+          Changhao Jiang
+          Kannan Muthukkaruppan
+          Venkat Venkataramani
+          Haiping Zhao
+
+        Additional Contributors:
+          George Cabrera      - UI enhancements
+          Paul Saab           - FreeBSD port
+          Syseleven           - Function Arguments

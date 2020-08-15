@@ -1,0 +1,13 @@
+// $Id$
+// vim:ft=javascript
+
+// If your extension references something external, use ARG_WITH
+// ARG_WITH("rampart", "for rampart support", "no");
+
+// Otherwise, use ARG_ENABLE
+// ARG_ENABLE("rampart", "enable rampart support", "no");
+
+if (PHP_RAMPART != "no") {
+	EXTENSION("rampart", "rampart.c", PHP_EXTNAME_SHARED, "/DZEND_ENABLE_STATIC_TSRMLS_CACHE=1");
+}
+
